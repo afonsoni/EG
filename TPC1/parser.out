@@ -1,0 +1,29 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    NUM
+
+Grammar
+
+Rule 0     S' -> sequencia
+Rule 1     sequencia -> sentido intervalos
+Rule 2     sentido -> +
+Rule 3     sentido -> -
+Rule 4     intervalos -> intervalo
+Rule 5     intervalos -> intervalos intervalo
+
+Terminals, with rules where they appear
+
++                    : 2
+-                    : 3
+NUM                  : 
+error                : 
+
+Nonterminals, with rules where they appear
+
+intervalo            : 4 5
+intervalos           : 1 5
+sentido              : 1
+sequencia            : 0
+
